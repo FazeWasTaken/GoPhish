@@ -10,6 +10,7 @@
 2.  **Run the GoPhish program**
     -   Open your terminal, command prompt, or PowerShell.
     -   Execute the GoPhish file (e.g., gophish.exe for Windows, or ./gophish for Mac).
+    -   ### the software might crash the first time you execute it.
     -   Be sure to note the URL where the admin panel is hosted.
 
 3.  **Access the Admin Panel**
