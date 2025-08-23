@@ -1,82 +1,54 @@
 # GoPhish
 
-How to Create a Phishing Simulation with GoPhish
-Install GoPhish
+### GoPhish Phishing Simulation Guide
 
-Go to the GoPhish GitHub page.
+1.  **Install GoPhish**
+    -   Go to the GoPhish GitHub page.
+    -   Download the version that matches your operating system.
+    -   Extract the downloaded file to a folder of your choice.
 
-Download the version that matches your operating system.
+2.  **Run the GoPhish program**
+    -   Open your terminal, command prompt, or PowerShell.
+    -   Execute the GoPhish file (e.g., gophish.exe for Windows, or ./gophish for Mac).
+    -   Be sure to note the URL where the admin panel is hosted.
 
-Extract the downloaded file to a folder of your choice.
+3.  **Access the Admin Panel**
+    -   Open a web browser and navigate to the admin panel URL.
+    -   Log in using the default credentials.
+    -   Update the password immediately for security.
 
-Run the GoPhish program
+4.  **Configure SMTP settings**
+    -   Go to the "Sending Profiles" page and create a new profile.
+    -   Enter the SMTP server details (e.g., Gmail, Mailtrap, or a custom server).
+    -   Test the connection to ensure that emails can be sent.
 
-Open your terminal, command prompt, or PowerShell.
+5.  **Create a Phishing Email Template**
+    -   Navigate to the "Email Templates" page and select "Create new template."
+    -   Write a realistic phishing email with a sneaky link (call to action).
+    -   Save the template for future use.
 
-Execute the GoPhish file (e.g., gophish.exe for Windows, ./gophish for Mac).
+6.  **Create a Fake Landing Page**
+    -   Go to the "Landing Page" tab and create a new page.
+    -   Import a login page to make it look credible.
+    -   Enable "credential capture" to log any credentials entered by users.
 
-Make sure to note the URL where the admin panel is hosted.
+7.  **Add Targeted Users**
+    -   Go to "Users and Groups" and create a new group.
+    -   Add test users by entering their email addresses.
+    -   Save the group for later use in the campaign.
 
-Access the GoPhish Admin Panel
+8.  **Initiate the Campaign**
+    -   Navigate to "Campaigns" and select "Create new campaign."
+    -   Choose the email template, landing page, sending profile, and user group.
+    -   Set the launch time and start the campaign.
 
-Open a web browser and navigate to the admin panel URL from the previous step.
+9.  **Monitor Campaign Results**
+    -   Watch the dashboard to check your campaign's performance.
+    -   Analyze metrics like email open rates, link clicks, and entered credentials.
+    -   Note the users who fell for the campaign.
 
-Log in using the default credentials.
-
-Update the password immediately for security.
-
-Configure the SMTP settings
-
-Go to the Sending Profiles page and create a new user profile.
-
-Enter the SMTP server details, which can be Gmail, Mailtrap, or a custom server.
-
-Test the connection to ensure emails can be sent.
-
-Create your own Phishing email template
-
-Navigate to the Email Templates page and select Create new template.
-
-Write a realistic phishing email with a sneaky link (call to action).
-
-Save this template for later use.
-
-Create a fake landing page
-
-Navigate to the Landing Page tab and create a new page.
-
-Import a login page to make it look realistic.
-
-Enable credential capture to log any credentials entered by users.
-
-Add your targeted users
-
-Go to Users and Groups and create a new group.
-
-Add some test users by entering their email addresses.
-
-Save the group to use later in the campaign.
-
-Initiate the campaign
-
-Navigate to Campaigns and select Create new campaign.
-
-Select the email templates, landing page, sending profiles, and the targeted user group you created.
-
-Set up the launch time and start the campaign.
-
-Monitor the campaign results
-
-Watch the dashboard to check the performance of your campaign.
-
-Analyze metrics like email open rates, link clicks, and credentials entered.
-
-Mark and note the users who fell for the campaign.
-
-Create and provide training
-
-Download the results from your campaign.
-
-Contact friends and family who failed the test and teach them what to look for.
-
-Repeat simulations later to see if there are any "repeat offenders" and who has learned from their mistakes.
+10. **Provide Training**
+    -   Download the results from your campaign.
+    -   Contact those who failed and teach them what to look for.
+    -   Repeat simulations down the line to see who has learned from their mistakes.
+    
