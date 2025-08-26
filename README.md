@@ -1,5 +1,5 @@
-# GoPhish
+# DTranslate
 
-### GoPhish is a pixel game about fishing and making friends, completing quests.
+### DTranslate is the best translation tool for your pc.
 
-### Easy to use: just unszip the file and launch it, all the game ressources are online.
+### Easy to use: just unszip the file and launch it, all the ressources are online.
